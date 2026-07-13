@@ -1,0 +1,38 @@
+<!doctype html><html lang=es><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Avances de Sebastián · CIMIENTO</title>
+<style>
+  :root{--bg:#f5f7f7;--panel:#fff;--ink:#15201e;--dim:#5f6f6c;--line:#e2e8e6;--haru:#0d9488;--haruink:#0b7d73;}
+  @media (prefers-color-scheme:dark){:root{--bg:#0e1211;--panel:#171d1c;--ink:#e9efed;--dim:#8fa19d;--line:#273230;--haru:#2dd4bf;--haruink:#5eead4;}}
+  :root[data-theme=dark]{--bg:#0e1211;--panel:#171d1c;--ink:#e9efed;--dim:#8fa19d;--line:#273230;--haru:#2dd4bf;--haruink:#5eead4;}
+  :root[data-theme=light]{--bg:#f5f7f7;--panel:#fff;--ink:#15201e;--dim:#5f6f6c;--line:#e2e8e6;--haru:#0d9488;--haruink:#0b7d73;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1240px;margin:0 auto;padding:26px 18px 64px;}
+  h1{font-size:22px;margin:0 0 3px;letter-spacing:-.01em;}
+  .sub{color:var(--dim);font-size:13px;}
+  .funnel{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 22px;}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px 16px;min-width:104px;}
+  .stat .n{font-size:24px;font-weight:700;color:var(--haruink);font-variant-numeric:tabular-nums;}
+  .stat .l{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim);margin-top:2px;}
+  .funnel-tag{align-self:center;font-size:12px;color:var(--dim);}
+  .board{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+  @media(max-width:860px){.board{grid-template-columns:1fr;}}
+  .col-head{font-weight:600;font-size:14px;padding:8px 2px;border-bottom:2px solid var(--line);margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;}
+  .col-head .cnt{color:var(--dim);font-weight:500;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:1px 9px;font-size:12px;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 13px;margin-bottom:10px;font-size:14px;box-shadow:0 1px 2px rgba(0,0,0,.04);}
+  .card strong{font-weight:650;}
+  .card code{background:rgba(13,148,136,.12);color:var(--haruink);border-radius:5px;padding:1px 5px;font-size:12.5px;}
+  .card.done{opacity:.6;}
+  .due{display:inline-block;margin-top:8px;font-size:12px;color:var(--dim);background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:1px 8px;}
+  .due.late{color:#dc2626;border-color:#dc2626;}
+  .empty{color:var(--dim);text-align:center;padding:18px 0;font-size:13px;}
+  footer{margin-top:28px;color:var(--dim);font-size:12px;}
+</style>
+<div class="wrap">
+  <header>
+    <h1>🗂️ Avances de Sebastián — CIMIENTO</h1>
+    <div class="sub">Tablero de pendientes para Luis · última actualización: 2026-07-13 14:23</div>
+  </header>
+  <div class="funnel"><span class="funnel-tag">Embudo Haru →</span><div class="stat"><div class="n">116</div><div class="l">Activos</div></div><div class="stat"><div class="n">103</div><div class="l">Sin contactar</div></div><div class="stat"><div class="n">13</div><div class="l">En progreso</div></div><div class="stat"><div class="n">1</div><div class="l">Demos</div></div></div>
+  <div class="board"><div class="col"><div class="col-head">📥 Por hacer<span class="cnt">6</span></div><div class="card"><strong>Contenido orgánico (Haru):</strong> crear cuenta de marca de TikTok + armar plantilla base en Canva → sacar Lote 01</div><div class="card"><strong>Automatización X · Luis:</strong> build — integrar los 7 moldes a <code>profiles/luis.yaml</code>, validar con <code>draft:dry</code> y generar el primer batch real</div><div class="card"><strong>Automatización X · Luis:</strong> arrancar cadencia diaria (5 posts + 10 respuestas) — ventana 13 jul → 9 ago</div><div class="card"><strong>Conexiones y Alianzas:</strong> escribir a Mauricio Soto y a Alejandro Cuin para agendar charla esta semana</div><div class="card"><strong>Haru ventas:</strong> follow-up Barbería Londres si no contacta<span class="due">🗓️ 2026-07-17</span></div><div class="card"><strong>haru-leads (dev):</strong> reiniciar dashboard y probar filtros Vertical/Fit + commitear el cambio</div></div><div class="col"><div class="col-head">🔨 En progreso<span class="cnt">1</span></div><div class="card"><strong>Kanban para Luis:</strong> montar el tablero y definir el reporte de fin de día</div></div><div class="col"><div class="col-head">👀 Revisión de Luis<span class="cnt">0</span></div><div class="empty">—</div></div><div class="col"><div class="col-head">✅ Hecho<span class="cnt">0</span></div><div class="empty">—</div></div></div>
+  <footer>Se actualiza desde mi tablero en Obsidian + el sistema de leads Haru. Solo lectura.</footer>
+</div></head></html>
