@@ -1,5 +1,6 @@
 # Solo publicamos la página (index.html). El generador y lo local NO van al repo público.
 generar_tablero.py
+publicar.bat
 preview_artifact.html
 kanban_extractor.py
 *.bak
