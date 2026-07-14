@@ -6,3 +6,6 @@ kanban_extractor.py
 *.bak
 *.bak-*
 __pycache__/
+publicar.log
+publicar_silencioso.vbs
+Subir tablero a Luis.bat
