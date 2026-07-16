@@ -9,3 +9,4 @@ __pycache__/
 publicar.log
 publicar_silencioso.vbs
 Subir tablero a Luis.bat
+.tablero_hash
