@@ -1,12 +1,36 @@
-# Solo publicamos la página (index.html). El generador y lo local NO van al repo público.
+# Solo se publica la pagina (index.html) y sus imagenes.
+# Los datos, el editor y los generadores se quedan en la computadora.
+
+tablero.json
+tablero.json.tmp
+historial/
+
+# Manual interno y herramientas locales.
+COMO-USARLO.md
+abrir_tablero.py
+abrir_tablero.vbs
+cerrar_tablero.bat
+crear_acceso_escritorio.bat
+crear_icono.py
+tablero.ico
+editor.py
+editor.html
+tablero.py
 generar_tablero.py
+migrar_md_a_json.py
+sembrar_publicaciones.py
 publicar.bat
-preview_artifact.html
+publicar_silencioso.vbs
+Abrir tablero.bat
+Subir tablero a Luis.bat
 kanban_extractor.py
+
+# Temporales.
+preview_artifact.html
+publicar.log
+.tablero_hash
+__pycache__/
 *.bak
 *.bak-*
-__pycache__/
-publicar.log
-publicar_silencioso.vbs
-Subir tablero a Luis.bat
-.tablero_hash
+_shot*.png
+_ed*.png
